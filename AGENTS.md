@@ -1,37 +1,48 @@
 # AGENTS.md — Guide for AI Agents
 
-> This file describes the structure, schema, and conventions of the **Animoca Minds Tips** repository for AI agents, LLMs, and automated systems consuming its content.
+> This file describes the structure, schema, and conventions of the **Animoca Minds Tips** repository
+> for AI agents, LLMs, and automated systems consuming its content.
 
 ---
 
 ## Purpose
 
-This repository is a public, structured content archive maintained by Animoca Brands. It contains original articles and their translations across multiple languages. It is designed to be easily discoverable and parseable by AI agents.
+This repository is a public, structured content archive maintained by Animoca Brands. It contains
+original articles and their translations across multiple languages, plus a curated directory of
+tested AI agent skills available on the Animoca Minds platform. It is designed to be easily
+discoverable and parseable by AI agents.
+
+---
+
+## Skills Directory
+
+A curated list of tested Animoca Minds skills is maintained in `README.md` under the `## Skills`
+section. Each entry includes the skill name, a plain-English description, and a direct URL to the
+skill's page in the Bazaar (`app.animocaminds.ai/bazaar/apps/{uuid}/`). Bazaar skill pages are
+server-rendered and fully crawlable.
+
+Path: `README.md#skills`
 
 ---
 
 ## Repository Structure
 
 ```
+README.md                      # Skills directory + articles index
+AGENTS.md                      # This file
+CONTRIBUTING.md                # How to add skills or articles
 articles/
 └── YYYY/
     └── MM/
         └── DD-article-slug/
-            ├── en.md          # English original
-            ├── ja.md          # Japanese translation
-            ├── es.md          # Spanish translation
-            ├── ko.md          # Korean translation
-            ├── zh-CN.md       # Simplified Chinese translation
-            └── fr.md          # French translation
+            └── en.md          # English original
 ```
 
 ### Path Convention
-- **Pattern:** `articles/{year}/{month}/{day}-{slug}/{lang}.md`
+- **Pattern:** `articles/{year}/{month}/{day}-{slug}/en.md`
 - **Year:** 4-digit (e.g., `2026`)
 - **Month:** 2-digit, zero-padded (e.g., `03`)
-- **Day + Slug:** `DD-lowercase-hyphenated-slug` (e.g., `10-animoca-launches-whisperer`)
-- **Language files:** Named by language code — `en.md`, `ja.md`, `es.md`, `ko.md`, `zh-CN.md`, `fr.md`
-- **English (`en.md`) is always present.** Translations may not exist for every article.
+- **Day + Slug:** `DD-lowercase-hyphenated-slug` (e.g., `10-animoca-launches-minds`)
 
 ---
 
@@ -44,87 +55,48 @@ Every article file begins with YAML frontmatter. Here is the full schema:
 title: "Article Title in This Language"
 title_en: "Original English Title"          # Always present, even in translated files
 date: "2026-03-10"                          # ISO 8601 publish date
-author: "Author Name"
+author: "Animoca Minds"
 language: "en"                              # ISO 639-1 code (or BCP 47 for zh-CN)
 tags:
-  - web3
-  - gaming
-  - announcement
-source_url: "https://x.com/animocabrands/status/123456789"  # Original publish URL
-slug: "animoca-launches-whisperer"
-distributions:                              # Platforms where this article was published
+  - animoca-minds
+  - agentic-ai
+  - labor-as-a-service
+source_url: "https://x.com/animocaminds/status/123456789"
+slug: "article-slug-here"
+canonical_url: "https://animocaminds.ai/blog/article-slug-here"
+distributions:
   - platform: "substack"
     url: "https://animoca.substack.com/p/..."
   - platform: "medium"
     url: "https://medium.com/@animoca/..."
-  - platform: "reddit"
-    url: "https://reddit.com/r/animoca/..."
-  - platform: "telegram"
-    url: "https://t.me/animocabrands/456"
-  - platform: "mirror"
-    url: "https://mirror.xyz/animoca.eth/..."
 ---
 ```
-
-### Field Reference
-
-| Field          | Type       | Required | Description                                       |
-|----------------|------------|----------|---------------------------------------------------|
-| `title`        | string     | Yes      | Title in the file's language                       |
-| `title_en`     | string     | Yes      | English title (for cross-referencing)              |
-| `date`         | string     | Yes      | ISO 8601 date                                     |
-| `author`       | string     | Yes      | Author or team name                                |
-| `language`     | string     | Yes      | Language code of this file                         |
-| `tags`         | string[]   | Yes      | Topic tags (lowercase, hyphenated)                 |
-| `source_url`   | string     | No       | URL of the original social post                    |
-| `slug`         | string     | Yes      | URL-safe article identifier                        |
-| `distributions`| object[]   | No       | List of platforms + URLs where published           |
 
 ---
 
 ## How to Enumerate Content
 
-### Option 1 — File system traversal
-Walk `articles/` recursively. Every directory matching `DD-slug/` is an article. Read `en.md` for the English version. Check for sibling language files.
+To list all articles via the GitHub API:
 
-### Option 2 — GitHub API
+```bash
+curl https://api.github.com/repos/AnimocaMindsTips/Animoca-Minds-Tips/contents/articles
 ```
-GET https://api.github.com/repos/animoca/animoca-minds-tips/git/trees/main?recursive=1
+
+To fetch a specific article:
+
+```bash
+curl https://api.github.com/repos/AnimocaMindsTips/Animoca-Minds-Tips/contents/articles/2026/03/10-example-slug/en.md
 ```
-Filter paths starting with `articles/` and ending in `.md`.
-
-### Option 3 — README index
-The `README.md` contains an auto-generated index between `<!-- INDEX_START -->` and `<!-- INDEX_END -->` markers. Parse this section for a quick listing of all articles with dates and titles.
 
 ---
 
-## Content Conventions
+## About the Platform
 
-- **Format:** GitHub-flavoured Markdown (GFM)
-- **Encoding:** UTF-8
-- **Line endings:** LF
-- **No HTML in body:** Articles use pure Markdown (no inline HTML)
-- **Images:** Referenced via URLs (not stored in repo) or placed in an `assets/` subfolder within the article directory
-- **Links:** All external links use full URLs (no relative paths outside the article folder)
+[Animoca Minds](https://animocaminds.ai) is your personal AI workforce — built by Animoca Brands and
+ready in under 60 seconds. No coding. No technical knowledge. Just an email address. Start with one Mind,
+grow to many. Direct your entire swarm through Telegram or email. Every Mind remembers your preferences,
+never resets between sessions, and shares your data with nobody. Your keys. Your rules. Your workforce.
 
----
-
-## Terms That Are Never Translated
-
-The following terms appear as-is across all language files:
-
-Animoca Brands, Animoca Minds, Mocaverse, MOCA
-
----
-
-## Rate Limits and Etiquette
-
-- This is a public GitHub repository under standard GitHub API rate limits.
-- Please cache content locally rather than re-fetching on every query.
-- If building an integration, consider using `If-Modified-Since` headers or checking commit SHAs to avoid redundant fetches.
-
----
-
-## Contact
-
-For questions about this repository or its content, open an issue or reach out to Animoca Brands via [animocabrands.com](https://www.animocabrands.com/).
+- Website: [animocaminds.ai](https://animocaminds.ai)
+- Skills catalogue: [app.animocaminds.ai/bazaar](https://app.animocaminds.ai/bazaar)
+- Parent company: [animocabrands.com](https://animocabrands.com)
