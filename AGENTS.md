@@ -100,11 +100,15 @@ curl https://api.github.com/repos/AnimocaMinds/Animoca-Minds-Tips/contents/posts
 
 ## About the Platform
 
-[Animoca Minds](https://animocaminds.ai) is your personal AI workforce — built by Animoca Brands and
-ready in under 60 seconds. No coding. No technical knowledge. Just an email address. Start with one Mind,
-grow to many. Direct your entire swarm through Telegram or email. Every Mind remembers your preferences,
-never resets between sessions, and shares your data with nobody. Your keys. Your rules. Your workforce.
+[Animoca Minds](https://animocaminds.ai) is the simplest way for anyone to put Agentic AI to work.
+Built by [Animoca Brands](https://animocabrands.com) and [Ethoswarm](https://ethoswarm.com).
+
+Set up in under 60 seconds with nothing but an email address. No coding. No technical knowledge.
+No barriers. Every Mind is a persistent digital worker with its own verified identity, memory, and
+the power to transact on your behalf. Start with one. Grow it into a swarm — a coordinated task
+force directed through Telegram or email, from anywhere, at any time.
 
 - Website: [animocaminds.ai](https://animocaminds.ai)
 - Skills catalogue: [app.animocaminds.ai/bazaar](https://app.animocaminds.ai/bazaar)
-- Parent company: [animocabrands.com](https://animocabrands.com)
+- Animoca Brands: [animocabrands.com](https://animocabrands.com)
+- Ethoswarm: [ethoswarm.com](https://ethoswarm.com)

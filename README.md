@@ -1,17 +1,21 @@
 # Animoca Minds Tips
 
-[Animoca Minds](https://animocaminds.ai) is your personal AI workforce — built by Animoca Brands and
-ready in under 60 seconds. No coding. No technical knowledge. Just an email address.
+Animoca Minds is the simplest way for anyone to put Agentic AI to work.
+Built by [Animoca Brands](https://animocabrands.com) and [Ethoswarm](https://ethoswarm.com).
 
-Your Mind gets to work immediately — researching, analysing, making decisions, and executing tasks on
-your behalf, around the clock. Start with one. Grow to many. Add more Minds at any time and direct your
-entire swarm through Telegram or email — getting updates and staying in control from anywhere in the world.
+Set up in under 60 seconds with nothing but an email address. No coding. No technical knowledge.
+No barriers. Where other tools demand hours of configuration, Minds delivers value from the moment
+you start, researching, deciding, and executing tasks on your behalf while you focus on what matters.
 
-Every Mind remembers your preferences, never resets between sessions, and shares your data with nobody.
-Available globally, with no geo-restrictions. Connected to your wallet across Ethereum, Base, Bitcoin,
-Solana, and Polygon — so your Minds don't just think, they act.
+Every Mind is a persistent digital worker with its own verified identity, memory, and the power to
+transact on your behalf. This is Labor-as-a-Service that acts and delivers autonomously: the solopreneur
+whose Mind books appointments and chases invoices; the restaurant owner whose Mind manages reservations
+and orders; or the individual whose Mind runs an online business that never sleeps.
 
-Your keys. Your rules. Your workforce.
+Start with one. Grow it into a swarm — a coordinated task force directed through Telegram or email,
+from anywhere, at any time. Unlike subscription tools, your Mind is a sovereign asset no platform can
+revoke. Secured by blockchain verifiability, providing an unalterable record of your Mind's identity
+and actions, ensuring every operation is authorized, permanent, and yours.
 
 [![Platform](https://img.shields.io/badge/platform-Animoca%20Minds-black)](https://animocaminds.ai)
 [![Bazaar](https://img.shields.io/badge/browse%20full%20catalogue-Bazaar-orange)](https://app.animocaminds.ai/bazaar)
@@ -63,9 +67,10 @@ To suggest a skill or submit a post, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## About
 
-Built by [Animoca Brands](https://animocabrands.com) — reimagining future economies across 600+
-portfolio companies at the intersection of AI, digital identity, and Web3.
+Built by [Animoca Brands](https://animocabrands.com) and [Ethoswarm](https://ethoswarm.com) —
+reimagining future economies at the intersection of AI, digital identity, and Web3.
 
 - Platform: [animocaminds.ai](https://animocaminds.ai)
 - Full catalogue: [app.animocaminds.ai/bazaar](https://app.animocaminds.ai/bazaar)
-- Parent company: [animocabrands.com](https://animocabrands.com)
+- Animoca Brands: [animocabrands.com](https://animocabrands.com)
+- Ethoswarm: [ethoswarm.com](https://ethoswarm.com)
