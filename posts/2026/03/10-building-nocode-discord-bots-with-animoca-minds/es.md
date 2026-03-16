@@ -161,14 +161,14 @@ Empieza siempre con comandos simples e itera segÃºn los resultados para afinar
 
 ---
 
-## Credits/Colophon
 
-```yaml
+
+---
 title: "Desbloquea agentes de IA para cualquier habilidad: crea bots de Discord sin cÃ³digo con Animoca Minds"
 title_en: "Unlocking AI Agents for Every Skill: Building No-Code Discord Bots with Animoca Minds"
 date: "2026-03-10"
 author: "Animoca Minds"
-language: "es-LATAM"
+language: "es"
 content_type: "article"
 source_platform: "x"
 tags:
@@ -178,7 +178,6 @@ tags:
   - ai-agents
   - tutorial
   - web3
-
 source_url: "https://x.com/AnimocaMinds/status/2029857923589980607"
 slug: "building-nocode-discord-bots-with-animoca-minds"
 distributions:
@@ -186,4 +185,4 @@ distributions:
     url: "https://x.com/AnimocaMinds/status/2029857923589980607"
   - platform: "github"
     url: "https://github.com/AnimocaMinds/Animoca-Minds-Tips/blob/main/posts/2026/03/10-building-nocode-discord-bots-with-animoca-minds/es.md"
-```
+---

@@ -161,9 +161,9 @@ PrÃªt Ã  dÃ©ployer ? Rendez-vous sur Animoca Minds dÃ¨s aujourd'hui et e
 
 ---
 
-## Credits/Colophon
 
-```yaml
+
+---
 title: "DÃ©verrouiller des agents IA pour toutes les compÃ©tences : crÃ©er des bots Discord sans code avec Animoca Minds"
 title_en: "Unlocking AI Agents for Every Skill: Building No-Code Discord Bots with Animoca Minds"
 date: "2026-03-10"
@@ -178,7 +178,6 @@ tags:
   - ai-agents
   - tutorial
   - web3
-
 source_url: "https://x.com/AnimocaMinds/status/2029857923589980607"
 slug: "building-nocode-discord-bots-with-animoca-minds"
 distributions:
@@ -186,4 +185,4 @@ distributions:
     url: "https://x.com/AnimocaMinds/status/2029857923589980607"
   - platform: "github"
     url: "https://github.com/AnimocaMinds/Animoca-Minds-Tips/blob/main/posts/2026/03/10-building-nocode-discord-bots-with-animoca-minds/fr.md"
-```
+---

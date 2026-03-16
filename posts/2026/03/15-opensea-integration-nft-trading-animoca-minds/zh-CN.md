@@ -92,7 +92,7 @@ distributions:
   - platform: "x"
     url: "https://x.com/AnimocaMinds/status/2030981995355152528"
   - platform: "github"
-    url: "https://github.com/AnimocaMinds/Animoca-Minds-Tips/blob/main/posts/2026/03/15-opensea-integration-nft-trading-animoca-minds/en.md"
+    url: "https://github.com/AnimocaMinds/Animoca-Minds-Tips/blob/main/posts/2026/03/15-opensea-integration-nft-trading-animoca-minds/zh-CN.md"
 tags:
   - animoca-minds
   - opensea
