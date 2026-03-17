@@ -1,4 +1,4 @@
-![Animoca Mindsであなたのストーリーを視覚化する](assets/main image storyboard_opt.png)
+![Animoca Mindsであなたのストーリーを視覚化する](assets/main%20image%20storyboard_opt.png)
 
 # Animoca Mindsであなたのストーリーを視覚化する
 

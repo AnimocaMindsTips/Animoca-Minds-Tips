@@ -1,4 +1,4 @@
-![Visualiza Tu Historia con Animoca Minds](assets/main image storyboard_opt.png)
+![Visualiza Tu Historia con Animoca Minds](assets/main%20image%20storyboard_opt.png)
 
 # Visualiza Tu Historia con Animoca Minds
 

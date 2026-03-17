@@ -1,4 +1,4 @@
-![Track Your Favourite Person on X (Twitter) with Animoca Minds](assets/Follow X.jpg)
+![Track Your Favourite Person on X (Twitter) with Animoca Minds](assets/Follow%20X.jpg)
 
 # Animoca MindsでX（Twitter）のお気に入りの人物を追跡する
 

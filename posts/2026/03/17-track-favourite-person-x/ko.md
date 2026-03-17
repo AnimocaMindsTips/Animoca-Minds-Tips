@@ -1,4 +1,4 @@
-![Track Your Favourite Person on X (Twitter) with Animoca Minds](assets/Follow X.jpg)
+![Track Your Favourite Person on X (Twitter) with Animoca Minds](assets/Follow%20X.jpg)
 
 # Animoca Minds로 X(Twitter)의 좋아하는 인물 팔로우하기
 

@@ -1,4 +1,4 @@
-![Animoca Minds로 당신의 이야기를 시각화하세요](assets/main image storyboard_opt.png)
+![Animoca Minds로 당신의 이야기를 시각화하세요](assets/main%20image%20storyboard_opt.png)
 
 # Animoca Minds로 당신의 이야기를 시각화하세요
 
