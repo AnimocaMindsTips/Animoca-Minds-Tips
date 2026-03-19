@@ -10,8 +10,11 @@ Either you run the day or the day runs you. With Animoca Minds, your AI agent ca
 
 **Existing users:** Create a new Mind, then name it and set its specialty.
 
-Next, equip your Mind with the **Google Calendar skill** in the Bazaar:
-[https://app.animocaminds.ai/bazaar/apps/6750ADAF-BB06-F111-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/6750ADAF-BB06-F111-AD1D-0EA9A5017E89)
+Next, equip your Mind with the **Google Calendar skill** by sending the following command:
+
+```
+Equip yourself with the app "GoogleCalendar" (ID: 6750ADAF-BB06-F111-AD1D-0EA9A5017E89)
+```
 
 Once equipped, your Mind will start preparing the connection automatically. Just send the setup message, and it'll handle the rest.
 
@@ -46,7 +49,6 @@ Your Google Calendar events are now syncing automatically. Your Mind acts, execu
 ## Useful links
 
 - [Animoca Minds App](https://app.animocaminds.ai/)
-- [Google Calendar Skill in the Bazaar](https://app.animocaminds.ai/bazaar/apps/6750ADAF-BB06-F111-AD1D-0EA9A5017E89)
 
 ---
 title: "Connecting Animoca Mind to Google Calendar"

@@ -4,9 +4,13 @@
 
 このガイドでは、Animoca MindをGoogleドライブに接続し、ドキュメントの作成・読み取り・編集ができるようにするための正確な手順を提供します。
 
-## フェーズ1：BazaarからAppを装備する
+## フェーズ1：スキルを装備する
 
-1. Skills BazaarのGoogle_Drive_suiteに直接アクセスする：[https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
+1. 次のコマンドをMindに送信してGoogle_Drive_suiteを装備する：
+
+```
+Equip yourself with the app "Google_Drive_Suite" (ID: E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
+```
 2. プロンプトをコピーしてMindに送信することで、このAppをMindに装備する。
 
 ## フェーズ2：Google Cloudプロジェクトを作成してAPIを有効化する
@@ -54,7 +58,6 @@
 ## 関連リンク
 
 - [Animoca Mindsプラットフォーム](https://app.animocaminds.ai/)
-- [Skills BazaarのGoogle_Drive_suite](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 - [Google Cloud Console](https://console.cloud.google.com/)
 - [Google OAuth 2.0 Playground](https://developers.google.com/oauthplayground/)
 

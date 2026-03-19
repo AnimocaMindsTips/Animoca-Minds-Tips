@@ -2,7 +2,7 @@
 
 # OpenSea Integration: Llevando el trading de NFT a la web agÃÂ©ntica con Animoca Minds
 
-La web agÃÂ©ntica acaba de expandirse. Animoca Minds ha integrado con ÃÂ©xito la **skill de comercio y anÃÂ¡lisis de OpenSea** en su plataforma, permitiendo que los agentes de IA Ã¢ÂÂ llamados Minds Ã¢ÂÂ consulten mercados de NFT y ejecuten operaciones directamente a travÃÂ©s de las APIs de OpenSea. Este es un paso importante hacia una economÃÂ­a agÃÂ©ntica completamente autÃÂ³noma y basada en lÃÂ³gica, donde los agentes de IA realizan transacciones en nombre de los usuarios con precisiÃÂ³n, transparencia y seguridad.
+La web agÃÂ©ntica acaba de expandirse. Animoca Minds ha integrado con ÃÂ©xito la **skill de comercio y anÃÂ¡lisis de OpenSea** en su plataforma, permitiendo que los agentes de IA — llamados Minds — consulten mercados de NFT y ejecuten operaciones directamente a travÃÂ©s de las APIs de OpenSea. Este es un paso importante hacia una economÃÂ­a agÃÂ©ntica completamente autÃÂ³noma y basada en lÃÂ³gica, donde los agentes de IA realizan transacciones en nombre de los usuarios con precisiÃÂ³n, transparencia y seguridad.
 
 Esta guÃÂ­a explica quÃÂ© hace la integraciÃÂ³n, cÃÂ³mo configurarla y cÃÂ³mo funciona internamente.
 
@@ -21,25 +21,29 @@ Cada acciÃÂ³n que realiza el Mind sigue un ciclo de ejecuciÃÂ³n determ
 
 Configurar un Mind para el trading en OpenSea no requiere programaciÃÂ³n. Sigue estos cuatro pasos en orden.
 
-### Paso 1: Awaken Ã¢ÂÂ Activa tu Mind
+### Paso 1: Awaken — Activa tu Mind
 
 Si eres un **nuevo usuario**, ve a [animocaminds.ai](https://animocaminds.ai), ingresa tu direcciÃÂ³n de correo, recibe un email de bienvenida y responde al Concierge AI. Dale un nombre a tu Mind y establece su especialidad en **Investing**.
 
 Si eres un **usuario existente**, crea un nuevo Mind, dale un nombre y establece su especialidad en **Investing**.
 
-### Paso 2: Equip Ã¢ÂÂ Instala la skill de OpenSea
+### Paso 2: Equip — Instala la skill de OpenSea
 
-Visita el Animoca Minds Global Bazaar en [https://app.animocaminds.ai/bazaar?lang=en](https://app.animocaminds.ai/bazaar?lang=en) y equipa la skill **OpenSea Trade & Analysis** usando el Skill Pack ID `686F1D76-BA1A-F111-AD1D-0EA9A5017E89`.
+Equipa la skill **OpenSea Trade & Analysis** enviando el siguiente comando a tu Mind:
 
-Las skills son paquetes de capacidades de mÃÂºltiples pasos que orquestan herramientas y datos en un flujo de trabajo definido. Equipar esta skill le da a tu Mind acceso a datos del mercado de OpenSea, anÃÂ¡lisis de listados y ejecuciÃÂ³n de operaciones Ã¢ÂÂ sin necesidad de configurar cÃÂ³digo.
+```
+Equip yourself with the skill 'OpenSea_Trade_Analysis' (ID: 686F1D76-BA1A-F111-AD1D-0EA9A5017E89)
+```
 
-### Paso 3: Provision Ã¢ÂÂ Conecta y financia tus wallets
+Las skills son paquetes de capacidades de mÃÂºltiples pasos que orquestan herramientas y datos en un flujo de trabajo definido. Equipar esta skill le da a tu Mind acceso a datos del mercado de OpenSea, anÃÂ¡lisis de listados y ejecuciÃÂ³n de operaciones — sin necesidad de configurar cÃÂ³digo.
+
+### Paso 3: Provision — Conecta y financia tus wallets
 
 Conecta y financia wallets blockchain en **Ethereum o Base** para cubrir las comisiones de gas de las transacciones. Sin una wallet correctamente financiada, tu Mind no podrÃÂ¡ transmitir transacciones a la blockchain.
 
-### Paso 4: Configure Ã¢ÂÂ AÃÂ±ade tu API key de OpenSea
+### Paso 4: Configure — AÃÂ±ade tu API key de OpenSea
 
-Asigna **crÃÂ©ditos de cogniciÃÂ³n** para potenciar los ciclos de cÃÂ³mputo de IA, luego aÃÂ±ade tu API key de OpenSea para que el Mind pueda acceder a los datos del marketplace en tiempo real. Tu API key se almacena en tu bÃÂ³veda privada Ã¢ÂÂ estÃÂ¡ cifrada y nunca se expone a la capa de razonamiento de IA.
+Asigna **crÃÂ©ditos de cogniciÃÂ³n** para potenciar los ciclos de cÃÂ³mputo de IA, luego aÃÂ±ade tu API key de OpenSea para que el Mind pueda acceder a los datos del marketplace en tiempo real. Tu API key se almacena en tu bÃÂ³veda privada — estÃÂ¡ cifrada y nunca se expone a la capa de razonamiento de IA.
 
 ## El ciclo de ejecuciÃÂ³n: Think, Build, Verify, Ship
 
@@ -53,7 +57,7 @@ Cada operaciÃÂ³n de NFT que ejecuta tu Mind sigue un protocolo preciso de c
 
 **Ship:** El Mind firma la transacciÃÂ³n de forma segura usando EIP-712 y la transmite a la blockchain a travÃÂ©s de la wallet conectada.
 
-Este ciclo garantiza precisiÃÂ³n sobre intuiciÃÂ³n Ã¢ÂÂ cada operaciÃÂ³n estÃÂ¡ basada en lÃÂ³gica, es auditable y validada antes de la ejecuciÃÂ³n.
+Este ciclo garantiza precisiÃÂ³n sobre intuiciÃÂ³n — cada operaciÃÂ³n estÃÂ¡ basada en lÃÂ³gica, es auditable y validada antes de la ejecuciÃÂ³n.
 
 ## Seguridad y soberanÃÂ­a
 
@@ -61,20 +65,19 @@ La verdadera agencia de IA requiere una seguridad robusta. Animoca Minds estÃ
 
 **Arquitectura de claves seguras:** Las claves privadas permanecen cifradas en todo momento y nunca se exponen a la capa de razonamiento de IA ni al stack de orquestaciÃÂ³n.
 
-**EjecuciÃÂ³n con verificaciÃÂ³n primero:** Cada transacciÃÂ³n es validada contra controles de precio, expiraciÃÂ³n y parÃÂ¡metros antes de ser transmitida Ã¢ÂÂ reduciendo el riesgo de operaciones errÃÂ³neas o maliciosas.
+**EjecuciÃÂ³n con verificaciÃÂ³n primero:** Cada transacciÃÂ³n es validada contra controles de precio, expiraciÃÂ³n y parÃÂ¡metros antes de ser transmitida — reduciendo el riesgo de operaciones errÃÂ³neas o maliciosas.
 
 **CogniciÃÂ³n auditable:** Las acciones del agente se registran en el stream de cogniciÃÂ³n, dando a los usuarios un registro transparente de cada decisiÃÂ³n y acciÃÂ³n que ha tomado su Mind.
 
 ## Por quÃÂ© esto importa para la economÃÂ­a agÃÂ©ntica
 
-La integraciÃÂ³n con OpenSea es uno de los primeros ejemplos de un agente de IA que puede participar de forma autÃÂ³noma en un mercado financiero real en nombre de un usuario Ã¢ÂÂ de extremo a extremo, sin requerir programaciÃÂ³n ni intervenciÃÂ³n manual.
+La integraciÃÂ³n con OpenSea es uno de los primeros ejemplos de un agente de IA que puede participar de forma autÃÂ³noma en un mercado financiero real en nombre de un usuario — de extremo a extremo, sin requerir programaciÃÂ³n ni intervenciÃÂ³n manual.
 
-Animoca Minds posiciona esto como la base de una **economÃÂ­a agÃÂ©ntica** mÃÂ¡s amplia Ã¢ÂÂ una en la que los Minds operan como entidades soberanas y verificables con su propia identidad, memoria y wallet, capaces de actuar como un compaÃÂ±ero financiero virtual.
+Animoca Minds posiciona esto como la base de una **economÃÂ­a agÃÂ©ntica** mÃÂ¡s amplia — una en la que los Minds operan como entidades soberanas y verificables con su propia identidad, memoria y wallet, capaces de actuar como un compaÃÂ±ero financiero virtual.
 
 ## Useful Links
 
 - Plataforma Animoca Minds: [https://animocaminds.ai](https://animocaminds.ai)
-- Global Bazaar (catÃÂ¡logo de skills): [https://app.animocaminds.ai/bazaar?lang=en](https://app.animocaminds.ai/bazaar?lang=en)
 - OpenSea: [https://opensea.io](https://opensea.io)
 - Animoca Brands: [https://animocabrands.com](https://animocabrands.com)
 

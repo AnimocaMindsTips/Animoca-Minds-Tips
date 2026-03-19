@@ -4,9 +4,8 @@
 
 Ce guide fournit les étapes exactes pour connecter votre Animoca Mind à Google Drive, lui accordant la capacité de créer, lire et modifier des documents.
 
-## Phase 1 : Installer l'application depuis le Bazaar
+## Phase 1 : Installer la compétence
 
-1. Accédez à **Google_Drive_suite** dans le Bazaar des Skills : [https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 2. Équipez cette application à votre Mind en copiant le prompt.
 
 ## Phase 2 : Créer un projet Google Cloud et activer les APIs
@@ -37,7 +36,6 @@ Votre Mind pourra désormais créer, lire et écrire des fichiers dans votre Goo
 ## Liens utiles
 
 - [Plateforme Animoca Minds](https://app.animocaminds.ai/)
-- [Google_Drive_suite](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 - [Console Google Cloud](https://console.cloud.google.com/)
 - [Google OAuth 2.0 Playground](https://developers.google.com/oauthplayground/)
 

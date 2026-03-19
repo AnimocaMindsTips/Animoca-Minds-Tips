@@ -4,9 +4,8 @@
 
 이 가이드는 Animoca Mind를 Google 드라이브에 연결하여 문서를 생성, 읽기, 편집할 수 있는 능력을 부여하는 정확한 단계를 제공합니다.
 
-## 1단계: Bazaar에서 앱 장착하기
+## 1단계: 스킬 장착하기
 
-1. Skills Bazaar에서 **Google_Drive_suite**에 접속: [https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 2. 프롬프트를 복사하여 Mind에게 전송.
 
 ## 2단계: Google Cloud 프로젝트 생성 및 API 활성화
@@ -37,7 +36,6 @@ Mind가 Google 드라이브에서 직접 파일을 생성, 읽기, 쓰기할 수
 ## 유용한 링크
 
 - [Animoca Minds 플랫폼](https://app.animocaminds.ai/)
-- [Google_Drive_suite](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 - [Google Cloud Console](https://console.cloud.google.com/)
 - [Google OAuth 2.0 Playground](https://developers.google.com/oauthplayground/)
 

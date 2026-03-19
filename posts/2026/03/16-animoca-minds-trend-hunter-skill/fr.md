@@ -28,9 +28,12 @@ Visitez [AnimocaMinds.ai](https://app.animocaminds.ai) pour configurer votre age
 
 ### Étape 2 : Équipez la Compétence Trend Hunter
 
-Trouvez Trend Hunter dans le Bazaar—le marché de votre Mind pour les compétences et intégrations. En un seul clic, votre Mind est surequipé et prê(à commencer la surveillance.
+Dans Telegram ou par e-mail, envoyez la commande suivante à votre Mind :
 
-Lien du Bazaar : [https://app.animocaminds.ai/bazaar/apps/5E2E79F3-A063-11EF-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/5E2E79F3-A063-11EF-AD1D-0EA9A5017E89)
+```
+Equip yourself with the skill 'Trend_Hunter' (ID: C0D2B49A-7FFA-F011-AD1D-0EA9A5017E89)
+```
+
 
 ### Étape 3 : Configurez votre Profil d'Intelligence
 
@@ -59,7 +62,6 @@ Votre Mind grandit avec vous. Au fur et à mesure que vous vous sentez à l'aise
 ## Liens utiles
 
 - [Application Animoca Minds](https://app.animocaminds.ai/)
-- [Compétence Trend Hunter dans le Bazaar](https://app.animocaminds.ai/bazaar/apps/5E2E79F3-A063-11EF-AD1D-0EA9A5017E89)
 - [Animoca Brands](https://www.animocabrands.com)
 - [X — @AnimocaMinds](https://x.com/AnimocaMinds)
 

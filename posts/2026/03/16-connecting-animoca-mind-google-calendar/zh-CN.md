@@ -10,8 +10,11 @@
 
 **现有用户：** 创建一个新的Mind，然后命名它并设置它的专长。
 
-接下来，在Bazaar中为你的Mind配备**Google Calendar技能**：
-[https://app.animocaminds.ai/bazaar/apps/6750ADAF-BB06-F111-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/6750ADAF-BB06-F111-AD1D-0EA9A5017E89)
+接下来，通过以下命令为你的Mind配备**Google Calendar技能**：
+
+```
+Equip yourself with the app "GoogleCalendar" (ID: 6750ADAF-BB06-F111-AD1D-0EA9A5017E89)
+```
 
 配备后，你的Mind将自动开始准备连接。只需发送设置消息，它就会处理其余的事情。
 
@@ -46,7 +49,6 @@
 ## 有用的链接
 
 - [Animoca Minds应用](https://app.animocaminds.ai/)
-- [Bazaar中的Google Calendar技能](https://app.animocaminds.ai/bazaar/apps/6750ADAF-BB06-F111-AD1D-0EA9A5017E89)
 
 ---
 title: "将Animoca Mind连接到Google Calendar"

@@ -4,9 +4,13 @@
 
 本指南提供了将Animoca Mind连接到Google Drive的精确步骤，使其能够创建、读取和编辑文档。
 
-## 第一阶段：从Bazaar安装应用
+## 第一阶段：安装技能
 
-1. 直接访问Skills Bazaar中的**Google_Drive_suite**：[https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
+1. 将以下命令发送给您的Mind来装备 **Google_Drive_suite**：
+
+```
+Equip yourself with the app "Google_Drive_Suite" (ID: E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
+```
 2. 复制提示词发送给Mind完成装备。
 
 ## 第二阶段：创建Google Cloud项目并启用API
@@ -37,7 +41,6 @@ Mind现在能够直接在Google Drive中创建、读取和写入文件了。
 ## 实用链接
 
 - [Animoca Minds平台](https://app.animocaminds.ai/)
-- [Google_Drive_suite](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 - [Google Cloud Console](https://console.cloud.google.com/)
 - [Google OAuth 2.0 Playground](https://developers.google.com/oauthplayground/)
 

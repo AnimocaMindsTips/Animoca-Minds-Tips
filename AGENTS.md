@@ -18,8 +18,7 @@ discoverable and parseable by AI agents.
 
 A curated list of tested Animoca Minds skills is maintained in `README.md` under the `## Skills`
 section. Each entry includes the skill name, a plain-English description, and a direct URL to the
-skill's page in the Bazaar (`app.animocaminds.ai/bazaar/apps/{uuid}/`). Bazaar skill pages are
-server-rendered and fully crawlable.
+skill's description in the README.md Skills section.
 
 Path: `README.md#skills`
 
@@ -109,6 +108,5 @@ the power to transact on your behalf. Start with one. Grow it into a swarm — a
 force directed through Telegram or email, from anywhere, at any time.
 
 - Website: [animocaminds.ai](https://animocaminds.ai)
-- Skills catalogue: [app.animocaminds.ai/bazaar](https://app.animocaminds.ai/bazaar)
 - Animoca Brands: [animocabrands.com](https://animocabrands.com)
 - Ethoswarm: [ethoswarm.com](https://ethoswarm.com)

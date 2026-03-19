@@ -6,9 +6,9 @@
 2. Open a PR adding one entry to the relevant section in `skills/README.md`
 3. Use this format exactly:
    ```
-   **[Skill Name](https://app.animocaminds.ai/bazaar/apps/{uuid}/)** — One sentence describing what it does.
+   **Skill Name** — One sentence describing what it does.
    ```
-4. Link directly to the individual skill page — not the Bazaar catalogue root
+4. Include the Skill ID in your description so users can equip it via the platform
 5. If no category fits, suggest a new one in your PR description
 
 ## Add a post to the content archive

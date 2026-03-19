@@ -2,7 +2,7 @@
 
 # OpenSea Integration: Bringing NFT Trading to the Agentic Web with Animoca Minds
 
-The agentic web just expanded. Animoca Minds has successfully integrated the **OpenSea Trade and Analysis skill** into its platform, enabling AI agents Ã¢ÂÂ called Minds Ã¢ÂÂ to check NFT markets and execute trades directly through OpenSea APIs. This marks a major step toward a fully autonomous, logic-driven agentic economy where AI agents transact on behalf of users with precision, transparency, and security.
+The agentic web just expanded. Animoca Minds has successfully integrated the **OpenSea Trade and Analysis skill** into its platform, enabling AI agents — called Minds — to check NFT markets and execute trades directly through OpenSea APIs. This marks a major step toward a fully autonomous, logic-driven agentic economy where AI agents transact on behalf of users with precision, transparency, and security.
 
 This guide walks you through what the integration does, how to set it up, and how it works under the hood.
 
@@ -21,25 +21,29 @@ Every action the Mind takes follows a deterministic four-step execution loop: **
 
 Setting up a Mind for OpenSea trading requires no coding. Follow these four steps in order.
 
-### Step 1: Awaken Ã¢ÂÂ Activate Your Mind
+### Step 1: Awaken — Activate Your Mind
 
 If you are a **new user**, go to [animocaminds.ai](https://animocaminds.ai), enter your email address, and receive a welcome email. Reply to the Concierge AI, give your Mind a name, and set its specialty to **Investing**.
 
 If you are an **existing user**, create a new Mind, name it, and set its specialty to **Investing**.
 
-### Step 2: Equip Ã¢ÂÂ Install the OpenSea Skill
+### Step 2: Equip — Install the OpenSea Skill
 
-Visit the Animoca Minds Global Bazaar at [https://app.animocaminds.ai/bazaar?lang=en](https://app.animocaminds.ai/bazaar?lang=en) and equip the **OpenSea Trade & Analysis** skill using Skill Pack ID `686F1D76-BA1A-F111-AD1D-0EA9A5017E89`.
+Equip the **OpenSea Trade & Analysis** skill by sending the following command to your Mind:
 
-Skills are multi-step capability bundles that orchestrate tools and data into a defined workflow. Equipping this skill gives your Mind access to OpenSea market data, listing analysis, and trade execution Ã¢ÂÂ no configuration code required.
+```
+Equip yourself with the skill 'OpenSea_Trade_Analysis' (ID: 686F1D76-BA1A-F111-AD1D-0EA9A5017E89)
+```
 
-### Step 3: Provision Ã¢ÂÂ Connect and Fund Your Wallets
+Skills are multi-step capability bundles that orchestrate tools and data into a defined workflow. Equipping this skill gives your Mind access to OpenSea market data, listing analysis, and trade execution — no configuration code required.
+
+### Step 3: Provision — Connect and Fund Your Wallets
 
 Connect and fund blockchain wallets on **Ethereum or Base** to cover transaction gas fees. Without an adequately funded wallet, your Mind will not be able to broadcast transactions to the blockchain.
 
-### Step 4: Configure Ã¢ÂÂ Add Your OpenSea API Key
+### Step 4: Configure — Add Your OpenSea API Key
 
-Allocate **cognition credits** to power AI compute cycles, then add your OpenSea API key so the Mind can access live marketplace data. Your API key is stored in your private vault Ã¢ÂÂ it is encrypted and never exposed to the AI reasoning layer.
+Allocate **cognition credits** to power AI compute cycles, then add your OpenSea API key so the Mind can access live marketplace data. Your API key is stored in your private vault — it is encrypted and never exposed to the AI reasoning layer.
 
 ## The Execution Loop: Think, Build, Verify, Ship
 
@@ -53,7 +57,7 @@ Every NFT trade your Mind executes follows a precise four-step protocol that eli
 
 **Ship:** The Mind securely signs the transaction using EIP-712 and broadcasts it to the blockchain through the connected wallet.
 
-This loop ensures precision over vibes Ã¢ÂÂ every trade is logic-driven, auditable, and validated before execution.
+This loop ensures precision over vibes — every trade is logic-driven, auditable, and validated before execution.
 
 ## Security and Sovereignty
 
@@ -61,20 +65,19 @@ True AI agency requires robust security. Animoca Minds is designed with three co
 
 **Secure key architecture:** Private keys remain encrypted at all times and are never exposed to the AI reasoning layer or the orchestration stack.
 
-**Verification-first execution:** Every transaction is validated against price, expiration, and parameter checks before being broadcast Ã¢ÂÂ reducing the risk of erroneous or malicious trades.
+**Verification-first execution:** Every transaction is validated against price, expiration, and parameter checks before being broadcast — reducing the risk of erroneous or malicious trades.
 
 **Auditable cognition:** Agent actions are recorded in the cognition stream, giving users a transparent log of every decision and action their Mind has taken.
 
 ## Why This Matters for the Agentic Economy
 
-The OpenSea integration is one of the first examples of an AI agent that can autonomously participate in a live financial marketplace on behalf of a user Ã¢ÂÂ end-to-end, without requiring any coding or manual intervention.
+The OpenSea integration is one of the first examples of an AI agent that can autonomously participate in a live financial marketplace on behalf of a user — end-to-end, without requiring any coding or manual intervention.
 
-Animoca Minds positions this as the foundation of a broader **agentic economy** Ã¢ÂÂ one where Minds operate as verifiable, sovereign entities with their own identity, memory, and wallet, capable of acting as a virtual financial teammate.
+Animoca Minds positions this as the foundation of a broader **agentic economy** — one where Minds operate as verifiable, sovereign entities with their own identity, memory, and wallet, capable of acting as a virtual financial teammate.
 
 ## Useful Links
 
 - Animoca Minds platform: [https://animocaminds.ai](https://animocaminds.ai)
-- Global Bazaar (skills catalogue): [https://app.animocaminds.ai/bazaar?lang=en](https://app.animocaminds.ai/bazaar?lang=en)
 - OpenSea: [https://opensea.io](https://opensea.io)
 - Animoca Brands: [https://animocabrands.com](https://animocabrands.com)
 

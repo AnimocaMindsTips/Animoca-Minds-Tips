@@ -65,7 +65,7 @@ This step applies if you want updates posted to a Discord channel. If you prefer
 1. In your conversation with the AI agent, instruct it to load the Steam skill:
    > *"Load the artifact Steam_Web_API_v1"*
 
-   You can find it in the [Animoca Minds Bazaar](https://app.animocaminds.ai/bazaar/skills/840E8213-2817-F111-AD1D-0EA9A5017E89). If the artifact ID has changed, ask: *"List available Steam artifacts."*
+   If the artifact ID has changed, ask your Mind: *"List available Steam artifacts."*
 
 2. If using Discord, share your **Discord Bot Token** with the Mind as a secure credential.
 
@@ -89,7 +89,6 @@ This step applies if you want updates posted to a Discord channel. If you prefer
 - [Discord Developer Portal](https://discord.com/developers/applications)
 - [Steam Store](https://store.steampowered.com/)
 - [Steam RSS News Feed](https://store.steampowered.com/feeds/news.xml)
-- [Steam Skill in the Animoca Minds Bazaar](https://app.animocaminds.ai/bazaar/skills/840E8213-2817-F111-AD1D-0EA9A5017E89)
 - [Discord Bot Permission Guide](https://support-dev.discord.com/hc/en-us/articles/34905563063703)
 
 ---

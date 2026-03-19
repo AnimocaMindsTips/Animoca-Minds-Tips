@@ -28,9 +28,12 @@ Visita [AnimocaMinds.ai](https://app.animocaminds.ai) para configurar tu agente.
 
 ### Paso 2: Equipa la Habilidad Trend Hunter
 
-Encuentra Trend Hunter en el Bazaar—el marketplace de tu Mind para habilidades e integraciones. Con un clic, tu Mind está sobrecargado y listo para comenzar a monitorear.
+En Telegram o correo electrónico, envía a tu Mind el siguiente comando:
 
-Enlace del Bazaar: [https://app.animocaminds.ai/bazaar/apps/5E2E79F3-A063-11EF-AD1D-0EA9A5017E89](https://app.animocaminds.ai/bazaar/apps/5E2E79F3-A063-11EF-AD1D-0EA9A5017E89)
+```
+Equip yourself with the skill 'Trend_Hunter' (ID: C0D2B49A-7FFA-F011-AD1D-0EA9A5017E89)
+```
+
 
 ### Paso 3: Configura tu Perfil de Inteligencia
 
@@ -59,7 +62,6 @@ Tu Mind crece contigo. Conforme te sientas cómodo, puedes superponer habilidade
 ## Enlaces útiles
 
 - [Aplicación Animoca Minds](https://app.animocaminds.ai/)
-- [Habilidad Trend Hunter en el Bazaar](https://app.animocaminds.ai/bazaar/apps/5E2E79F3-A063-11EF-AD1D-0EA9A5017E89)
 - [Animoca Brands](https://www.animocabrands.com)
 - [X — @AnimocaMinds](https://x.com/AnimocaMinds)
 

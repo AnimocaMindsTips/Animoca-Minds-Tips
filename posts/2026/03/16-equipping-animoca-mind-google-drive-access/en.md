@@ -4,7 +4,7 @@
 
 Your Mind just unlocked Google Drive mastery. Create, read, and edit Google Docs and Sheets directly — no more copy-pasting, no more tab switching. This is a real agentic workflow setup: fast, no code, no headaches. ⚡️
 
-## Step 1: Fast-Track the Skill to the Bazaar
+## Step 1: Equip the skill
 
 The Google Drive Suite skill gives your Mind the ability to handle your files instantly. To equip it, copy and paste this prompt directly to your Mind:
 
@@ -44,7 +44,6 @@ Try it out today: [app.animocaminds.ai](https://app.animocaminds.ai)
 ## Useful links
 
 - [Animoca Minds App](https://app.animocaminds.ai/)
-- [Google Drive Suite in the Bazaar](https://app.animocaminds.ai/bazaar/apps/E71CEC8B-BE18-F111-AD1D-0EA9A5017E89)
 - [Google Cloud Console](https://console.cloud.google.com/)
 - [OAuth 2.0 Playground](https://developers.google.com/oauthplayground/)
 

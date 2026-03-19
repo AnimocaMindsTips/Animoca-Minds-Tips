@@ -65,7 +65,7 @@ Cette étape s'applique si vous souhaitez que les mises à jour soient publiées
 1. Dans votre conversation avec l'agent IA, demandez-lui de charger la compétence Steam :
    > *"Charge l'artefact Steam_Web_API_v1"*
 
-   Vous pouvez le trouver dans le [Bazar Animoca Minds](https://app.animocaminds.ai/bazaar/skills/840E8213-2817-F111-AD1D-0EA9A5017E89). Si l'ID de l'artefact a changé, demandez : *"Liste les artefacts Steam disponibles."*
+   Vous pouvez le trouver dans le Animoca Minds. Si l'ID de l'artefact a changé, demandez : *"Liste les artefacts Steam disponibles."*
 
 2. Si vous utilisez Discord, partagez votre **Token de bot Discord** avec le Mind comme identifiant sécurisé.
 
@@ -89,7 +89,6 @@ Cette étape s'applique si vous souhaitez que les mises à jour soient publiées
 - [Discord Developer Portal](https://discord.com/developers/applications)
 - [Steam Store](https://store.steampowered.com/)
 - [Flux RSS d'actualités Steam](https://store.steampowered.com/feeds/news.xml)
-- [Compétence Steam dans le Bazar Animoca Minds](https://app.animocaminds.ai/bazaar/skills/840E8213-2817-F111-AD1D-0EA9A5017E89)
 - [Guide des permissions des bots Discord](https://support-dev.discord.com/hc/en-us/articles/34905563063703)
 
 ---

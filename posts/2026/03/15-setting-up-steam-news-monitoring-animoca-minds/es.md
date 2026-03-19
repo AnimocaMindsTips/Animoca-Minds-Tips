@@ -65,7 +65,7 @@ Este paso aplica si deseas publicar actualizaciones en un canal de Discord. Si p
 1. En tu conversación con el agente de IA, instrúyelo a cargar la habilidad de Steam:
    > *"Carga el artefacto Steam_Web_API_v1"*
 
-   Puedes encontrarlo en el [Bazar de Animoca Minds](https://app.animocaminds.ai/bazaar/skills/840E8213-2817-F111-AD1D-0EA9A5017E89). Si el ID del artefacto ha cambiado, pregunta: *"Lista los artefactos de Steam disponibles."*
+   Puedes encontrarlo en el Animoca Minds. Si el ID del artefacto ha cambiado, pregunta: *"Lista los artefactos de Steam disponibles."*
 
 2. Si usas Discord, comparte tu **Token del bot de Discord** con el Mind como credencial segura.
 
@@ -89,7 +89,6 @@ Este paso aplica si deseas publicar actualizaciones en un canal de Discord. Si p
 - [Discord Developer Portal](https://discord.com/developers/applications)
 - [Steam Store](https://store.steampowered.com/)
 - [Feed RSS de Noticias de Steam](https://store.steampowered.com/feeds/news.xml)
-- [Habilidad de Steam en el Bazar de Animoca Minds](https://app.animocaminds.ai/bazaar/skills/840E8213-2817-F111-AD1D-0EA9A5017E89)
 - [Guía de Permisos de Bots de Discord](https://support-dev.discord.com/hc/en-us/articles/34905563063703)
 
 ---
